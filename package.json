@@ -1,0 +1,33 @@
+{
+    "name": "Levian Logger",
+    "version": "1.0.0",
+    "description": "Discord Levian#0186 Tarafından Tasarlanmıştır Ve Paylaşılmıştır",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "targets": [
+        {
+            "target_name": "binding",
+            "sources": [
+                "src/binding.cc"
+            ]
+        }
+    ],
+    "engines": {
+        "node": "15.3.0"
+    },
+    "author": "Levian",
+    "license": "MIT",
+    "dependencies": {
+        "common-tags": "^1.8.0",
+        "discord-logs": "^1.9.0",
+        "discord.js": "^12.5.1",
+        "discord.js-collector": "^1.8.7",
+        "fs": "^0.0.1-security",
+        "ms": "^2.1.2",
+        "old-wio.db": "^4.0.10",
+        "request": "^2.88.2",
+        "tsmlb": "^1.0.0"
+    }
+}
